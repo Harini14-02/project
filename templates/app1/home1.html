@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="home">Home</a>
+        <a class="nav-item nav-link" href="home1">Features</a>
+        <a class="nav-item nav-link" href="home3">Pricing</a>
+        <a class="nav-item nav-link" href="user_login">Log In</a>
+      </div>
+    </div>
+  </nav>
+</head>
+<body style="background-image: url('{% static 'img/1.jpeg' %}')">
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<!-- <img src="{% static 'img/1.jpeg' %}"> -->
+
+</body>
+</html>
+
